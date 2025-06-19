@@ -2,7 +2,7 @@ name: Haja API Test CI
 
 on:
   push:
-    branches: [ main ]  # atau ganti dengan branch yang kamu pakai
+    branches: [ master ]  # atau ganti dengan branch yang kamu pakai
 
 jobs:
   run-api-tests:

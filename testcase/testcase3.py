@@ -1,6 +1,6 @@
 import requests
 from pprint import pprint
-from testcase.testcase2 import gen
+from testcase2 import gen
 def coba():
     toks = gen()
     reque = requests.get("https://airportgap.com/api/favorites",

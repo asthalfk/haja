@@ -24,7 +24,7 @@ response1 = gen()
 schema1 = {
     "type" : "object",
     "properties" :{
-        "tokendsadsadasd":{
+        "token":{
             "type" : "string"
         }
     },

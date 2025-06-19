@@ -3,7 +3,7 @@ from pprint import pprint
 
 def test():
     # resp = requests.get("https://airportgap.com/api/airports")
-    resp = requests.get("https://airportgap.com/api/airports/YCB")
+    resp = requests.get("https://airportgap.com/api/airports/YdsdCB")
     coba = resp.json().get('data')
     pprint(coba)
     type = coba['type']

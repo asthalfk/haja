@@ -9,9 +9,9 @@ def coba():
     })
 
     data = reque.json()
-    # pprint(data)
-    spesific = data['data']['id'=='35682']
-    assert spesific['attributes']['airport']['city'] == 'Baker Lake'
+    pprint(data)
+    spesific = data['data']['id'=='35729']
+    assert spesific['attributes']['airport']['city'] == 'Kapuskasing'
     print("assert done")
 
 if __name__ == '__main__':

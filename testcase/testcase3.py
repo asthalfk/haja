@@ -13,6 +13,7 @@ def coba():
     spesific = data['data']['id'=='35729']
     assert spesific['attributes']['airport']['city'] == 'Kapuskasing'
     print("assert done")
+#     hahdahasd
 
 if __name__ == '__main__':
     coba()
